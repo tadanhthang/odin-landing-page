@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.link-header{
+    display: flex;
+    font-size: 18px;
+    gap: 16px;
+}
+    
+a, p{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-style: none;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 40px 0 40px 0;
+    height: 30%;
+    width: 100%;
+      
+}
+
+.bao-boc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1225px;
+}
+
+.banner-left{
+    width: 30%;
+    height: 25%;
+}
+
+.banner-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    width: 40%;
+    height: 250px;
+    
+}
+
+.banner-right span{
+    color:white;
+}
+
+.button-banner{
+    font-size: 18px;
+    background-color: #3882f6 ;
+    color: #e5e7eb;
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+    padding: 8px 16px 8px 16px;
+}
+
+.title{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-product{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 30px 0 30px 0;
+}
+
+.all-product{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+}
+
+.show-product{
+    height: 250px;
+    text-align: center;
+    width: 115px;
+    padding-bottom: 60px;
+}
+
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 4px solid blue;
+    border-radius: 10px;
+}
+
+.something{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    width: 100%;
+    padding: 100px 0 100px 0;   
+}
+
+.text-something{
+    text-align: left;
+    width: 80%;
+    
+}
+
+.something-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tac-gia span{
+    font-size: 24px; 
+    color: black; 
+    font-weight: 900; 
+    padding-right: 80px;
+}
+
+.call{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.something1{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #3882f6;
+    padding: 30px 30px 30px 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.button-something1{
+    background-color: #3882f6;
+    border: 1px solid white;
+    padding: 12px 32px 12px 32px;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 30px 0 30px 0;
+}
+
+
